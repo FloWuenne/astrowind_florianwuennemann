@@ -72,7 +72,7 @@ export default defineConfig({
   },
 
   vite: {
-    resolve: {
+    re    ve: {
       alias: {
         '~': path.resolve(__dirname, './src'),
       },
