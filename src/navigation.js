@@ -3,87 +3,88 @@ import { getPermalink, getBlogPermalink, getAsset } from './utils/permalinks';
 export const headerData = {
   links: [
     {
-      text: 'Homes',
-      links: [
-        {
-          text: 'SaaS',
-          href: getPermalink('/homes/saas'),
-        },
-        {
-          text: 'Startup',
-          href: getPermalink('/homes/startup'),
-        },
-        {
-          text: 'Mobile App',
-          href: getPermalink('/homes/mobile-app'),
-        },
-        {
-          text: 'Personal',
-          href: getPermalink('/homes/personal'),
-        },
-      ],
+      text: 'Home',
+      href: getPermalink('/homes/personal')
+      // links: [
+      //   {
+      //     text: 'SaaS',
+      //     href: getPermalink('/homes/saas'),
+      //   },
+      //   {
+      //     text: 'Startup',
+      //     href: getPermalink('/homes/startup'),
+      //   },
+      //   {
+      //     text: 'Mobile App',
+      //     href: getPermalink('/homes/mobile-app'),
+      //   },
+      //   {
+      //     text: 'Personal',
+      //     href: getPermalink('/homes/personal'),
+      //   },
+      // ],
     },
     {
       text: 'Pages',
-      links: [
-        {
-          text: 'Features (Anchor Link)',
-          href: getPermalink('/#features'),
-        },
-        {
-          text: 'Services',
-          href: getPermalink('/services'),
-        },
-        {
-          text: 'Pricing',
-          href: getPermalink('/pricing'),
-        },
-        {
-          text: 'About us',
-          href: getPermalink('/about'),
-        },
-        {
-          text: 'Contact',
-          href: getPermalink('/contact'),
-        },
-        {
-          text: 'Terms',
-          href: getPermalink('/terms'),
-        },
-        {
-          text: 'Privacy policy',
-          href: getPermalink('/privacy'),
-        },
-      ],
+      // links: [
+      //   {
+      //     text: 'Features (Anchor Link)',
+      //     href: getPermalink('/#features'),
+      //   },
+      //   {
+      //     text: 'Services',
+      //     href: getPermalink('/services'),
+      //   },
+      //   {
+      //     text: 'Pricing',
+      //     href: getPermalink('/pricing'),
+      //   },
+      //   {
+      //     text: 'About us',
+      //     href: getPermalink('/about'),
+      //   },
+      //   {
+      //     text: 'Contact',
+      //     href: getPermalink('/contact'),
+      //   },
+      //   {
+      //     text: 'Terms',
+      //     href: getPermalink('/terms'),
+      //   },
+      //   {
+      //     text: 'Privacy policy',
+      //     href: getPermalink('/privacy'),
+      //   },
+      // ],
     },
     {
       text: 'Landing',
-      links: [
-        {
-          text: 'Lead Generation',
-          href: getPermalink('/landing/lead-generation'),
-        },
-        {
-          text: 'Long-form Sales',
-          href: getPermalink('/landing/sales'),
-        },
-        {
-          text: 'Click-Through',
-          href: getPermalink('/landing/click-through'),
-        },
-        {
-          text: 'Product Details (or Services)',
-          href: getPermalink('/landing/product'),
-        },
-        {
-          text: 'Coming Soon or Pre-Launch',
-          href: getPermalink('/landing/pre-launch'),
-        },
-        {
-          text: 'Subscription',
-          href: getPermalink('/landing/subscription'),
-        },
-      ],
+      // links: [
+      //   {
+      //     text: 'Lead Generation',
+      //     href: getPermalink('/landing/lead-generation'),
+      //   },
+      //   {
+      //     text: 'Long-form Sales',
+      //     href: getPermalink('/landing/sales'),
+      //   },
+      //   {
+      //     text: 'Click-Through',
+      //     href: getPermalink('/landing/click-through'),
+      //   },
+      //   {
+      //     text: 'Product Details (or Services)',
+      //     href: getPermalink('/landing/product'),
+      //   },
+      //   {
+      //     text: 'Coming Soon or Pre-Launch',
+      //     href: getPermalink('/landing/pre-launch'),
+      //   },
+      //   {
+      //     text: 'Subscription',
+      //     href: getPermalink('/landing/subscription'),
+      //   },
+      // ],
     },
     {
       text: 'Blog',
@@ -170,11 +171,9 @@ export const footerData = {
     { text: 'Privacy Policy', href: getPermalink('/privacy') },
   ],
   socialLinks: [
-    { ariaLabel: 'X', icon: 'tabler:brand-x', href: '#' },
-    { ariaLabel: 'Instagram', icon: 'tabler:brand-instagram', href: '#' },
-    { ariaLabel: 'Facebook', icon: 'tabler:brand-facebook', href: '#' },
-    { ariaLabel: 'RSS', icon: 'tabler:rss', href: getAsset('/rss.xml') },
-    { ariaLabel: 'Github', icon: 'tabler:brand-github', href: 'https://github.com/onwidget/astrowind' },
+    { ariaLabel: 'X', icon: 'tabler:brand-x', href: 'https://twitter.com/flowuenne' },
+    { ariaLabel: 'X', icon: 'tabler:brand-linkedin', href: 'https://www.linkedin.com/in/florian-w%C3%BCnnemann-322357189/' },
+    { ariaLabel: 'Github', icon: 'tabler:brand-github', href: 'https://github.com/FloWuenne' },
   ],
   footNote: `
     <span class="w-5 h-5 md:w-6 md:h-6 md:-mt-0.5 bg-cover mr-1.5 rtl:mr-0 rtl:ml-1.5 float-left rtl:float-right rounded-sm bg-[url(~/assets/images/test_logo.png)]"></span>
